@@ -1,0 +1,140 @@
+/*reset*/
+html{
+    font-size:62.5%;
+    scroll-behavior:smooth;
+}
+body{
+    font: 1.6rem 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #2D3436;
+}
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+*{ 
+    box-sizing:border-box;
+}
+button{
+    padding:0;
+    border:0;
+    background-color:transparent;
+}
+
+/* start */
+header img{
+    margin-right: 1rem;
+    width: 3rem;
+}
+header h1{
+    font-weight: 100 ;
+}
+header{
+        background-color: #DFE6E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main ul{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+main ul li img{
+    margin: 1rem;
+}
+main div{
+    background-color: #fff;
+    display: flex;
+    border-radius: .5rem ;
+    margin: 14rem auto;
+    max-width: 80rem;
+}
+main div img.fon{
+    margin-left: 1rem;
+}
+main div h2{
+    font-size: 1.6rem;
+    margin: 1.8rem 1rem 1rem 0rem;
+}
+main div aside p.pd{
+    margin-bottom: 1rem;
+}
+main div a{
+    background-color: #D14600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 18rem;
+    color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin:  10rem 1rem 1rem 21rem;
+}
+main div a img{
+    filter: invert(100%);
+    margin-right: 1rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1rem
+}
+
+strong {
+    font-weight: 900 ;
+
+}
+@media screen and (max-width: 50rem){
+    body{
+        background-color: #fff;
+    }
+    header{
+        font-size: 2rem;
+        text-align: center;
+        align-items: flex-start;
+    }
+    main{
+        margin: 0rem 1rem;
+    }
+    main ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main ul li{
+        margin: 0rem;
+    }
+    main div{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+    }
+    main div img.fon{
+        margin: 0rem;
+    }
+    main div aside h2{
+        text-align: center;
+    }
+    main div aside a{
+        margin: 1rem auto;
+    }
+    footer{
+        position: inherit;
+    }
+}
