@@ -53,7 +53,7 @@ main ul.top li a{
     padding: 1rem;
     color: black;
     transition: 1s;
-    width: 30rem;
+    min-width: 25rem;
 }
 main ul.top li a:hover{
     background-color: #d1d5d6;
@@ -112,12 +112,12 @@ strong {
     font-weight: 900 ;
 
 }
-@media screen and (max-width: 50rem){
+@media screen and (max-width: 60rem){
     body{
         background-color: #fff;
     }
     header{
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
         align-items: flex-start;
     }
@@ -149,7 +149,24 @@ strong {
     main div aside a{
         margin: 1rem auto;
     }
+    main ul.top li a:hover{
+        background-color: #fff;
+    }
     footer{
         position: inherit;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    header{
+        font-size: 2rem;
+    }
+    main ul.top{
+        display: flex;
+        flex-direction: row;
+        margin: 0rem;
+    }
+    main ul.top li a{
+        justify-content: center;
     }
 }
